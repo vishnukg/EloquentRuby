@@ -1,0 +1,13 @@
+# Dependencies
+/.bundle/
+vendor/bundle/
+
+# Coverage
+/coverage/
+
+# IDE
+/.ruby-lsp/
+/.vscode/
+
+# OS
+.DS_Store
