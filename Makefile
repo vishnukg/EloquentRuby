@@ -7,4 +7,4 @@ update:
 	bundle update
 
 test:
-	bundle exec ruby test_maitre_d.rb
+	bundle exec ruby test/test_maitre_d.rb

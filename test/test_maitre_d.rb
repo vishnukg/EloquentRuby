@@ -1,5 +1,5 @@
 require_relative "test_helper"
-require_relative "maitre_d"
+require_relative "../lib/maitre_d"
 
 class TestMaitreD < Minitest::Test
   def test_single_reservation_within_capacity_is_accepted

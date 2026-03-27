@@ -1,5 +1,6 @@
 require_relative "reservation"
 
+
 class MaitreD
   attr_reader :table_size
 
