@@ -7,11 +7,11 @@ class Document
     @content = content
   end
 
-  def word
+  def words
     @content.split
   end
 
-  def word_count
-    word.size
+  def words_count
+    words.count
   end
 end
