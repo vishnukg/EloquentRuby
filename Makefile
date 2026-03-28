@@ -8,13 +8,13 @@ help:
 	@echo "  format   - Format code using StandardRB"
 
 install:
-	bundle install
+	bundle exec rake install
 
 update:
-	bundle update --all
+	bundle exec rake update
 
 format:
-	bundle exec standardrb --fix
+	bundle exec rake format
 
 test:
-	bundle exec ruby -Itest -r coverage_helper test/maitre_d_test.rb
+	bundle exec rake test

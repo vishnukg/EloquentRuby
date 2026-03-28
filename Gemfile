@@ -4,6 +4,7 @@ gem "minitest", "~> 5.0"
 gem "minitest-reporters"
 gem "simplecov"
 gem "simplecov-console"
+gem "rake"
 
 group :development do
   gem "standard"
